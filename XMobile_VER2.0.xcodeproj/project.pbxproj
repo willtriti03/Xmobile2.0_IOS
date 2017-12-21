@@ -29,6 +29,9 @@
 		BE0751151FEB6FA0000B57F9 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE0751021FEB6F92000B57F9 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0751311FEB7458000B57F9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0751281FEB7458000B57F9 /* back.png */; };
 		BE0751321FEB7458000B57F9 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0751301FEB7458000B57F9 /* progress.png */; };
+		BE07513E1FEB7576000B57F9 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07513D1FEB7576000B57F9 /* FileItem.swift */; };
+		BE0751401FEB7582000B57F9 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07513F1FEB7582000B57F9 /* HistoryItem.swift */; };
+		BE0751431FEB75D3000B57F9 /* UserDefaultCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0751421FEB75D3000B57F9 /* UserDefaultCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +170,9 @@
 		BE0750F71FEB6F92000B57F9 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift-master-3/JSONJoy.xcodeproj"; sourceTree = "<group>"; };
 		BE0751281FEB7458000B57F9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		BE0751301FEB7458000B57F9 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
+		BE07513D1FEB7576000B57F9 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		BE07513F1FEB7582000B57F9 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		BE0751421FEB75D3000B57F9 /* UserDefaultCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +243,8 @@
 		BE0750B01FEB6C08000B57F9 /* XMobile_VER2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				BE0751411FEB75B2000B57F9 /* UserDefaultControll */,
+				BE0751351FEB7564000B57F9 /* Item */,
 				04433E271FEB740800356F7A /* customLayout */,
 				04433E241FEB73D000356F7A /* ProgressDialog */,
 				BE0750DF1FEB6C13000B57F9 /* Resource */,
@@ -305,6 +313,23 @@
 				BE07510E1FEB6F92000B57F9 /* JSONJoy.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0751351FEB7564000B57F9 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				BE07513D1FEB7576000B57F9 /* FileItem.swift */,
+				BE07513F1FEB7582000B57F9 /* HistoryItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		BE0751411FEB75B2000B57F9 /* UserDefaultControll */ = {
+			isa = PBXGroup;
+			children = (
+				BE0751421FEB75D3000B57F9 /* UserDefaultCore.swift */,
+			);
+			path = UserDefaultControll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,9 +555,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */,
+				BE07513E1FEB7576000B57F9 /* FileItem.swift in Sources */,
 				BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */,
 				BE0750B21FEB6C08000B57F9 /* AppDelegate.swift in Sources */,
 				04433E291FEB741700356F7A /* singleLineTextField.swift in Sources */,
+				BE0751431FEB75D3000B57F9 /* UserDefaultCore.swift in Sources */,
+				BE0751401FEB7582000B57F9 /* HistoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
