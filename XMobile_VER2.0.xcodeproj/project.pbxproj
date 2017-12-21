@@ -30,6 +30,8 @@
 		BE0751101FEB6F9B000B57F9 /* SwiftHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE0750F41FEB6F88000B57F9 /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0751141FEB6FA0000B57F9 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0751021FEB6F92000B57F9 /* JSONJoy.framework */; };
 		BE0751151FEB6FA0000B57F9 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE0751021FEB6F92000B57F9 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE0751311FEB7458000B57F9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0751281FEB7458000B57F9 /* back.png */; };
+		BE0751321FEB7458000B57F9 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0751301FEB7458000B57F9 /* progress.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,8 @@
 		BE0750EC1FEB6E6C000B57F9 /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_big.png; sourceTree = "<group>"; };
 		BE0750EE1FEB6F88000B57F9 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = "SwiftHTTP-master-3/SwiftHTTP.xcodeproj"; sourceTree = "<group>"; };
 		BE0750F71FEB6F92000B57F9 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift-master-3/JSONJoy.xcodeproj"; sourceTree = "<group>"; };
+		BE0751281FEB7458000B57F9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BE0751301FEB7458000B57F9 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +299,8 @@
 		BE0750DF1FEB6C13000B57F9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BE0751281FEB7458000B57F9 /* back.png */,
+				BE0751301FEB7458000B57F9 /* progress.png */,
 				BE0750EC1FEB6E6C000B57F9 /* logo_big.png */,
 				BE0750E31FEB6E53000B57F9 /* folder_light.png */,
 				BE0750E01FEB6E53000B57F9 /* history.png */,
@@ -523,6 +529,8 @@
 				BE0750E71FEB6E54000B57F9 /* settings.png in Resources */,
 				BE0750BC1FEB6C08000B57F9 /* LaunchScreen.storyboard in Resources */,
 				BE0750B91FEB6C08000B57F9 /* Assets.xcassets in Resources */,
+				BE0751311FEB7458000B57F9 /* back.png in Resources */,
+				BE0751321FEB7458000B57F9 /* progress.png in Resources */,
 				BE0750B71FEB6C08000B57F9 /* Main.storyboard in Resources */,
 				BE0750E81FEB6E54000B57F9 /* star.png in Resources */,
 				BE0750E91FEB6E54000B57F9 /* folder_light.png in Resources */,
