@@ -269,12 +269,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back.png" width="16" height="16"/>
+        <image name="back.png" width="1080" height="1152"/>
         <image name="folder_light.png" width="24" height="24"/>
         <image name="history.png" width="24" height="24"/>
         <image name="logo.png" width="24" height="20"/>
         <image name="logo_big.png" width="260" height="215"/>
-        <image name="progress.png" width="16" height="16"/>
+        <image name="progress.png" width="1080" height="1089"/>
         <image name="settings.png" width="24" height="24"/>
         <image name="star.png" width="24" height="24"/>
     </resources>
