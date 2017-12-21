@@ -11,3 +11,4 @@ import SwiftHTTP
 import JSONJoy
 
 
+let baseUrl = "Xmobile.xstream";
