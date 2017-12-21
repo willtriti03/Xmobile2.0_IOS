@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E251FEB73E400356F7A /* ProgressDialog.swift */; };
+		04433E291FEB741700356F7A /* singleLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E281FEB741700356F7A /* singleLineTextField.swift */; };
 		BE0750B21FEB6C08000B57F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0750B11FEB6C08000B57F9 /* AppDelegate.swift */; };
 		BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0750B31FEB6C08000B57F9 /* ViewController.swift */; };
 		BE0750B71FEB6C08000B57F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0750B51FEB6C08000B57F9 /* Main.storyboard */; };
@@ -137,6 +139,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04433E251FEB73E400356F7A /* ProgressDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
+		04433E281FEB741700356F7A /* singleLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleLineTextField.swift; sourceTree = "<group>"; };
 		BE0750AE1FEB6C08000B57F9 /* XMobile_VER2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMobile_VER2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0750B11FEB6C08000B57F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE0750B31FEB6C08000B57F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +192,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04433E241FEB73D000356F7A /* ProgressDialog */ = {
+			isa = PBXGroup;
+			children = (
+				04433E251FEB73E400356F7A /* ProgressDialog.swift */,
+			);
+			path = ProgressDialog;
+			sourceTree = "<group>";
+		};
+		04433E271FEB740800356F7A /* customLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04433E281FEB741700356F7A /* singleLineTextField.swift */,
+			);
+			path = customLayout;
+			sourceTree = "<group>";
+		};
 		BE0750A51FEB6C08000B57F9 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +233,8 @@
 		BE0750B01FEB6C08000B57F9 /* XMobile_VER2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				04433E271FEB740800356F7A /* customLayout */,
+				04433E241FEB73D000356F7A /* ProgressDialog */,
 				BE0750DF1FEB6C13000B57F9 /* Resource */,
 				BE0750B11FEB6C08000B57F9 /* AppDelegate.swift */,
 				BE0750B31FEB6C08000B57F9 /* ViewController.swift */,
@@ -499,8 +521,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */,
 				BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */,
 				BE0750B21FEB6C08000B57F9 /* AppDelegate.swift in Sources */,
+				04433E291FEB741700356F7A /* singleLineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
