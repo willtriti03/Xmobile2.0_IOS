@@ -1,0 +1,30 @@
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "5xm-wj-ic7"; */
+"5xm-wj-ic7.title" = "Title";
+
+/* Class = "UITextField"; placeholder = "아이디"; ObjectID = "7oS-gb-kek"; */
+"7oS-gb-kek.placeholder" = "아이디";
+
+/* Class = "UITabBarItem"; title = "설정"; ObjectID = "8ke-XG-0b1"; */
+"8ke-XG-0b1.title" = "설정";
+
+/* Class = "UITabBarItem"; title = "파일매니저"; ObjectID = "AV5-KF-Scl"; */
+"AV5-KF-Scl.title" = "파일매니저";
+
+/* Class = "UITextField"; placeholder = "비밀번호"; ObjectID = "DwM-kq-f0S"; */
+"DwM-kq-f0S.placeholder" = "비밀번호";
+
+/* Class = "UITabBarItem"; title = "즐겨찾기"; ObjectID = "FKo-T3-kbk"; */
+"FKo-T3-kbk.title" = "즐겨찾기";
+
+/* Class = "UITabBarItem"; title = "XMobile"; ObjectID = "FNp-aZ-hib"; */
+"FNp-aZ-hib.title" = "XMobile";
+
+/* Class = "UIButton"; normalTitle = " 로그인"; ObjectID = "XVU-a5-Qcy"; */
+"XVU-a5-Qcy.normalTitle" = " 로그인";
+
+/* Class = "UITextField"; text = "0%"; ObjectID = "miH-o2-ZFV"; */
+"miH-o2-ZFV.text" = "0%";
+
+/* Class = "UITabBarItem"; title = "히스토리"; ObjectID = "qk4-el-eYP"; */
+"qk4-el-eYP.title" = "히스토리";
