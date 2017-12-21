@@ -36,6 +36,8 @@ class loginViewController: UIViewController {
     func loginSystem(id : String , pw : String){
         var progress = ProgressDialog(delegate: self);
         print("GET call");
-        progress.Show(animate: true, mesaj: "Loading...")
+        progress.Show(animate: true, mesaj: "Loading...");
+        
+        
     }
 }

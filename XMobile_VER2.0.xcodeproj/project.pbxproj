@@ -12,6 +12,7 @@
 		04433E2D1FEB756E00356F7A /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E2C1FEB756E00356F7A /* loginView.swift */; };
 		04433E2F1FEB757300356F7A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E2E1FEB757300356F7A /* loginViewController.swift */; };
 		04433E341FEB761400356F7A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04433E361FEB761400356F7A /* Localizable.strings */; };
+		04433E441FEB7B2300356F7A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E431FEB7B2300356F7A /* ApiClient.swift */; };
 		BE0750B21FEB6C08000B57F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0750B11FEB6C08000B57F9 /* AppDelegate.swift */; };
 		BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0750B31FEB6C08000B57F9 /* ViewController.swift */; };
 		BE0750B71FEB6C08000B57F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0750B51FEB6C08000B57F9 /* Main.storyboard */; };
@@ -152,6 +153,7 @@
 		04433E311FEB75D200356F7A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		04433E351FEB761400356F7A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		04433E371FEB761F00356F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04433E431FEB7B2300356F7A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		BE0750AE1FEB6C08000B57F9 /* XMobile_VER2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMobile_VER2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0750B11FEB6C08000B57F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE0750B31FEB6C08000B57F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +239,21 @@
 			path = viewController;
 			sourceTree = "<group>";
 		};
+		04433E3A1FEB7AE100356F7A /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
+		04433E421FEB7B0200356F7A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04433E431FEB7B2300356F7A /* ApiClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		BE0750A51FEB6C08000B57F9 = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +279,8 @@
 		BE0750B01FEB6C08000B57F9 /* XMobile_VER2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				04433E421FEB7B0200356F7A /* Service */,
+				04433E3A1FEB7AE100356F7A /* Utill */,
 				04433E2B1FEB755D00356F7A /* viewController */,
 				04433E2A1FEB754800356F7A /* view */,
 				04433E271FEB740800356F7A /* customLayout */,
@@ -558,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04433E441FEB7B2300356F7A /* ApiClient.swift in Sources */,
 				04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */,
 				BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */,
 				04433E2F1FEB757300356F7A /* loginViewController.swift in Sources */,
