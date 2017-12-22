@@ -39,3 +39,4 @@ public class ApiClient{
     }
 }
 
+let baseUrl = "Xmobile.xstream";
