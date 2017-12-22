@@ -15,7 +15,7 @@ class singleLineTextField: UITextField {
         
         let borderLine = UIView()
         let height = 1.0
-        borderLine.frame = CGRect(x: 0, y: Double(self.frame.height) - height, width: Double(self.frame.width + 40), height: height)
+        borderLine.frame = CGRect(x: 0, y: Double(self.frame.height) - height, width: Double(self.frame.width), height: height)
         
         borderLine.backgroundColor = borderColor
         self.addSubview(borderLine)

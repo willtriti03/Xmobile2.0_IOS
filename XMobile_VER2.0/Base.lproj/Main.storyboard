@@ -14,7 +14,7 @@
         <!--Title-->
         <scene sceneID="41W-WY-qhx">
             <objects>
-                <viewController id="OAG-Sx-4SO" customClass="ViewController" customModule="Xmobile2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OAG-Sx-4SO" customClass="ViewController" customModule="XMobile_VER2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NwV-ub-14T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,11 +141,17 @@
         <!--Login View Controller-->
         <scene sceneID="DER-Gu-LhE">
             <objects>
-                <viewController id="Tjj-jW-dQc" customClass="loginViewController" customModule="Xmobile2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tjj-jW-dQc" customClass="loginViewController" customModule="XMobile_VER2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hiT-Wm-RZe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="HHN-8n-9Tp">
+                                <rect key="frame" x="116" y="85" width="142" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HHN-8n-9Tp" secondAttribute="height" multiplier="142:91" id="TNm-aK-MwG"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVU-a5-Qcy">
                                 <rect key="frame" x="0.0" y="633" width="375" height="34"/>
                                 <constraints>
@@ -156,17 +162,15 @@
                                     <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSubmit:" destination="Tjj-jW-dQc" eventType="touchDown" id="eC4-xb-taD"/>
+                                    <action selector="onclick:" destination="Tjj-jW-dQc" eventType="touchUpInside" id="Dhp-Lv-Cd5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="HHN-8n-9Tp">
-                                <rect key="frame" x="116" y="85" width="142" height="91"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7xy-Nt-CDl" customClass="singleLineTextField" customModule="XMobile_VER2_0" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="318.5" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="HHN-8n-9Tp" secondAttribute="height" multiplier="142:91" id="TNm-aK-MwG"/>
+                                    <constraint firstAttribute="height" constant="30" id="8bh-SJ-yXg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="I0w-UH-R5q"/>
                                 </constraints>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7oS-gb-kek" customClass="singleLineTextField" customModule="Xmobile2" customModuleProvider="target">
-                                <rect key="frame" x="65" y="246" width="244" height="30"/>
                                 <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -176,8 +180,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DwM-kq-f0S" customClass="singleLineTextField" customModule="Xmobile2" customModuleProvider="target">
-                                <rect key="frame" x="65" y="313" width="244" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vjj-MO-bPr" customClass="singleLineTextField" customModule="XMobile_VER2_0" customModuleProvider="target">
+                                <rect key="frame" x="37" y="379" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cbx-z8-aOU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="hq5-1X-ppt"/>
+                                </constraints>
                                 <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -190,22 +198,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="jNX-e0-MdJ" firstAttribute="trailing" secondItem="7oS-gb-kek" secondAttribute="trailing" constant="66" id="3qp-Qb-EVc"/>
-                            <constraint firstItem="XVU-a5-Qcy" firstAttribute="top" secondItem="DwM-kq-f0S" secondAttribute="bottom" constant="290" id="8N1-vL-QrO"/>
                             <constraint firstItem="XVU-a5-Qcy" firstAttribute="bottom" secondItem="jNX-e0-MdJ" secondAttribute="bottom" id="9zZ-IG-Qvk"/>
-                            <constraint firstItem="jNX-e0-MdJ" firstAttribute="trailing" secondItem="7oS-gb-kek" secondAttribute="trailing" constant="66" id="LO4-OA-fio"/>
-                            <constraint firstItem="jNX-e0-MdJ" firstAttribute="trailing" secondItem="DwM-kq-f0S" secondAttribute="trailing" constant="66" id="Leh-PD-3gI"/>
+                            <constraint firstItem="7xy-Nt-CDl" firstAttribute="centerX" secondItem="hiT-Wm-RZe" secondAttribute="centerX" id="AJY-AG-iCv"/>
+                            <constraint firstItem="vjj-MO-bPr" firstAttribute="centerY" secondItem="hiT-Wm-RZe" secondAttribute="centerY" constant="60.5" id="Jer-0U-2hk"/>
                             <constraint firstItem="HHN-8n-9Tp" firstAttribute="top" secondItem="jNX-e0-MdJ" secondAttribute="top" constant="65" id="QzO-xd-jDT"/>
                             <constraint firstItem="jNX-e0-MdJ" firstAttribute="trailing" secondItem="HHN-8n-9Tp" secondAttribute="trailing" constant="117" id="Tzx-LT-Qx7"/>
-                            <constraint firstItem="DwM-kq-f0S" firstAttribute="top" secondItem="7oS-gb-kek" secondAttribute="bottom" constant="37" id="W1d-ke-oxy"/>
                             <constraint firstItem="XVU-a5-Qcy" firstAttribute="trailing" secondItem="jNX-e0-MdJ" secondAttribute="trailing" id="WkO-Hu-RWN"/>
+                            <constraint firstItem="7xy-Nt-CDl" firstAttribute="centerY" secondItem="hiT-Wm-RZe" secondAttribute="centerY" id="boX-5D-zDT"/>
                             <constraint firstItem="HHN-8n-9Tp" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" constant="116" id="jAn-dR-scB"/>
-                            <constraint firstItem="7oS-gb-kek" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" constant="65" id="nXz-0n-XoW"/>
                             <constraint firstItem="XVU-a5-Qcy" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" id="q3i-sQ-bos"/>
-                            <constraint firstItem="jNX-e0-MdJ" firstAttribute="trailing" secondItem="DwM-kq-f0S" secondAttribute="trailing" constant="66" id="qxJ-kC-CEI"/>
-                            <constraint firstItem="7oS-gb-kek" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" constant="65" id="s1t-B2-Z86"/>
-                            <constraint firstItem="DwM-kq-f0S" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" constant="65" id="ubU-J0-K8V"/>
-                            <constraint firstItem="DwM-kq-f0S" firstAttribute="leading" secondItem="jNX-e0-MdJ" secondAttribute="leading" constant="65" id="v9f-ya-4uP"/>
+                            <constraint firstItem="vjj-MO-bPr" firstAttribute="centerX" secondItem="hiT-Wm-RZe" secondAttribute="centerX" id="uAA-en-eKQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jNX-e0-MdJ"/>
                         <userDefinedRuntimeAttributes>
@@ -215,8 +217,8 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
-                        <outlet property="form_id" destination="7oS-gb-kek" id="nXo-N7-MCt"/>
-                        <outlet property="form_pw" destination="DwM-kq-f0S" id="jcP-gb-wnr"/>
+                        <outlet property="form_id" destination="7xy-Nt-CDl" id="w7g-9r-mOx"/>
+                        <outlet property="form_pw" destination="vjj-MO-bPr" id="eCx-3p-L80"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mdh-QQ-X9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -239,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bn6-88-lVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-374" y="111"/>
+            <point key="canvasLocation" x="-438" y="96"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cII-Wy-fad">

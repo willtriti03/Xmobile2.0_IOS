@@ -10,7 +10,9 @@ import UIKit
 import SwiftHTTP
 import JSONJoy
 
+
 class loginViewController: UIViewController {
+    private let apiClient : ApiClient = ApiClient.getInstance();
 
     @IBOutlet weak var form_id: singleLineTextField!
     @IBOutlet weak var form_pw: singleLineTextField!
@@ -27,17 +29,14 @@ class loginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onSubmit(_ sender: Any) {
+    @IBAction func onclick(_ sender: Any) {
         let id = form_id.text;
         let pw = form_pw.text;
         loginSystem(id: id!, pw: pw!)
     }
-    
     func loginSystem(id : String , pw : String){
-        var progress = ProgressDialog(delegate: self);
-        print("GET call");
-        progress.Show(animate: true, mesaj: "Loading...");
-        
-        
+        if(apiClient.loginProtocol(id: id, pw: pw)){
+            
+        }
     }
 }

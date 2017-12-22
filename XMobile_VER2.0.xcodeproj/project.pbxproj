@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E251FEB73E400356F7A /* ProgressDialog.swift */; };
 		04433E291FEB741700356F7A /* singleLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E281FEB741700356F7A /* singleLineTextField.swift */; };
 		04433E2D1FEB756E00356F7A /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E2C1FEB756E00356F7A /* loginView.swift */; };
 		04433E2F1FEB757300356F7A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04433E2E1FEB757300356F7A /* loginViewController.swift */; };
@@ -145,7 +144,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04433E251FEB73E400356F7A /* ProgressDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
 		04433E281FEB741700356F7A /* singleLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleLineTextField.swift; sourceTree = "<group>"; };
 		04433E2C1FEB756E00356F7A /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 		04433E2E1FEB757300356F7A /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 		04433E241FEB73D000356F7A /* ProgressDialog */ = {
 			isa = PBXGroup;
 			children = (
-				04433E251FEB73E400356F7A /* ProgressDialog.swift */,
 			);
 			path = ProgressDialog;
 			sourceTree = "<group>";
@@ -578,7 +575,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04433E441FEB7B2300356F7A /* ApiClient.swift in Sources */,
-				04433E261FEB73E400356F7A /* ProgressDialog.swift in Sources */,
 				BE0750B41FEB6C08000B57F9 /* ViewController.swift in Sources */,
 				04433E2F1FEB757300356F7A /* loginViewController.swift in Sources */,
 				04433E2D1FEB756E00356F7A /* loginView.swift in Sources */,
@@ -774,6 +770,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5ZDSD43D7;
 				INFOPLIST_FILE = XMobile_VER2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "inzent.XMobile-VER2-0";
@@ -789,6 +786,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5ZDSD43D7;
 				INFOPLIST_FILE = XMobile_VER2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "inzent.XMobile-VER2-0";
